@@ -1,0 +1,52 @@
+{
+  "monthly": [
+    {
+      "key": "January",
+      "value": { "startDate": "2023-01-01", "endDate": "2023-01-31" }
+    },
+    {
+      "key": "February",
+      "value": { "startDate": "2023-02-01", "endDate": "2023-02-28" }
+    },
+    {
+      "key": "March",
+      "value": { "startDate": "2023-03-01", "endDate": "2023-03-31" }
+    },
+    {
+      "key": "April",
+      "value": { "startDate": "2023-04-01", "endDate": "2023-04-30" }
+    },
+    {
+      "key": "May",
+      "value": { "startDate": "2023-05-01", "endDate": "2023-05-31" }
+    },
+    {
+      "key": "June",
+      "value": { "startDate": "2023-06-01", "endDate": "2023-06-30" }
+    },
+    {
+      "key": "July",
+      "value": { "startDate": "2023-07-01", "endDate": "2023-07-31" }
+    },
+    {
+      "key": "August",
+      "value": { "startDate": "2023-08-01", "endDate": "2023-08-31" }
+    },
+    {
+      "key": "September",
+      "value": { "startDate": "2023-09-01", "endDate": "2023-09-30" }
+    },
+    {
+      "key": "October",
+      "value": { "startDate": "2023-10-01", "endDate": "2023-10-31" }
+    },
+    {
+      "key": "November",
+      "value": { "startDate": "2023-11-01", "endDate": "2023-11-30" }
+    },
+    {
+      "key": "December",
+      "value": { "startDate": "2023-12-01", "endDate": "2023-12-31" }
+    }
+  ]
+}

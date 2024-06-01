@@ -1,0 +1,57 @@
+/* StudentEdit.css */
+
+.step-navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a293b;
+    padding: 10px 0;
+    border-radius: 5px;
+    padding-top: none;
+  }
+  
+  .step-button {
+    background-color: #1a293b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .step-button.active {
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: aliceblue;
+  }
+
+.custom-card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    border: none;
+    padding: 20px;
+  }
+
+  .custom-heading {
+    text-align: center;
+    color: white;
+    background-color: #1a293b;
+    border-radius: 5px;
+  }
+
+  .navigation-header {
+    background-color: #1a293b;
+    border-radius: 5px;
+  }
+
+  .search-box {
+    border-radius: 10px;
+    width: 200px;
+  }
+
+  .search-icon {
+    color: silver;
+  }
+
+  .text-formatted{
+    font-size:1.2rem;
+  }

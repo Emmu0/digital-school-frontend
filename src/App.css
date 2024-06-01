@@ -1,0 +1,506 @@
+* {
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+
+
+
+body {
+  background: #f4f7fa !important;
+
+}
+
+.maplabel {
+  font-weight: bold;
+  font-size: .75rem !important;
+}
+
+.fa-file-pdf.file-thumbnail {
+  color: tomato;
+}
+
+.fa-file-word.file-thumbnail {
+  color: #0d6efd;
+}
+
+.fa-file-excel.file-thumbnail {
+  color: #198754;
+}
+
+
+footer {
+  background-color: #647393;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.header {
+  background: none;
+}
+
+.header,
+.header a {
+  color: #1a293b
+}
+
+.sidebar-header {
+  color: #fff;
+}
+
+.btn-floating {
+  border-radius: 50% !important;
+}
+
+.field-label {
+  font-size: smaller;
+}
+
+.field-data {
+  border-bottom: 1px solid #ccc;
+
+}
+
+.related-list-table a {
+  text-decoration: none;
+}
+
+.btn-primary,
+.btn-info {
+  background-color: #5f65f0 !important;
+  color: #fff !important;
+  border-color: #5f65f0 !important;
+}
+
+.login-form {
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 1px 20px 0 rgb(69 90 100 / 8%);
+  margin-top: 5rem;
+}
+
+.login-form i {
+  color: #5f65f0;
+
+}
+
+.login-section {
+  border-left: 1px solid #ccc;
+}
+
+.login-form img {
+  width: 100%;
+}
+
+.login-form .vr {
+  border-right: 1px solid #ccc;
+}
+
+.data-table a {
+  text-decoration: none;
+}
+
+.data-table th {
+  background-color: #FFFFFF !important;
+  color: #0f0f0f;
+  font-weight: 400;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.data-table {
+  border: 1px solid #1a293b;
+  border-radius: 5px;
+}
+
+.view-form label {
+  font-size: smaller;
+  display: block;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.view-form-header {
+  background-color: #1a293b;
+  color: #fff;
+  padding: .5rem;
+  border-radius: 5px 5px 0 0;
+}
+
+.form-detail,
+.form-edit {
+  border: 1px solid #ccc;
+  padding-bottom: 1rem;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+.view-form span {
+  display: block;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.fl {
+  padding-left: 0px !important;
+}
+
+.fr {
+  padding-right: 0px !important;
+}
+
+.data-table {
+  font-size: smaller;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+
+}
+
+input[type=number].no-spinner::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.react-pdf__Page {
+  margin-top: 10px;
+}
+
+.react-pdf__Page__textContent {
+  border: 1px solid darkgrey;
+  box-shadow: 5px 5px 5px 1px #ccc;
+  border-radius: 5px;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+  padding: 20px;
+}
+
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+}
+
+/* For all pages */
+.all-page-container {
+  height: 100%;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.myTable {
+  width: 800px;
+}
+
+.fc-event {
+  cursor: pointer;
+}
+
+table.fc-col-header {
+  background-color: #1a293b;
+}
+
+table.fc-col-header a {
+  color: #fff !important;
+}
+
+th.fc-col-header-cell {
+  padding: .5rem 0 .5rem 0 !important;
+  /*border: 1px solid #1a293b !important;*/
+}
+
+.circle-icon {
+  background: #ffc0c0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 30px;
+}
+
+.fa-stack.small {
+  font-size: 2em;
+}
+
+i {
+  vertical-align: middle;
+}
+
+input.form-control[required] {
+  border-left: 4px solid red;
+}
+
+input.form-control[required] {
+  border-left: 4px solid red;
+}
+
+textarea.form-control[required] {
+  border-left: 4px solid red;
+}
+
+.form-select[required] {
+  border-left: 4px solid red;
+}
+
+.select-staff span {
+  border: none !important;
+}
+
+.select-staff .Select-heading {
+  height: 30px !important;
+  border-left: 4px solid #dc3545;
+}
+
+.select-staff .Select-item {
+  margin: 0 !important;
+  padding: .5rem !important;
+}
+
+.section-header {
+  background-color: #ccc;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #000000 !important;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.color-text {
+  color: #000000 !important;
+}
+
+.custom-select .css-1xc3v61-indicatorContainer,
+.custom-select .css-15lsz6c-indicatorContainer {
+  padding: 0;
+
+}
+
+.custom-select input {
+  height: 1rem !important;
+}
+
+.custom-select .css-13cymwt-control {
+  min-height: auto;
+}
+
+.custom-select .css-t3ipsp-control {
+  min-height: auto;
+}
+
+.react-wizard-addon .wizard-container .card {
+  min-height: 620px;
+}
+
+.react-wizard-addon .wizard-container .card .card-header {
+  background-color: #1a293b;
+}
+
+.react-wizard-addon .wizard-container .card .card-header .card-title {
+  color: white;
+}
+
+.react-wizard-addon .wizard-container .card .card-header .wizard-navigation ul li a {
+  color: white;
+}
+
+.react-wizard-addon .wizard-container .card .card-header .wizard-navigation .moving-tab {
+  color: #1a293b;
+}
+
+.react-wizard-addon .wizard-container .card .card-footer div .btn-next {
+  background-color: #1a293b;
+}
+
+.react-wizard-addon .wizard-container .card .card-footer div .btn-previous {
+  background-color: #1a293b;
+}
+
+.react-wizard-addon .wizard-container .card .card-footer div .btn-finish {
+  background-color: #1a293b;
+}
+
+.sibling-checkbox-label-size .form-check-input {
+  margin-top: 4px;
+}
+
+.error-message {
+  color: red;
+}
+
+.custom-tab {
+  color: rgb(19, 19, 19);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: "12px";
+}
+
+.custom-tab:hover {
+  /* background-color: blue;
+      color: white; 
+      cursor: pointer; */
+}
+
+    .headingTimeTable {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .printTimeTable {
+      text-align: center;
+    }
+    
+    .printTimeTable div {
+      padding: 7px;
+    }
+    
+    .timeTableEditRow {
+      background-color: #1a293b;
+      color: white;
+    }
+    .validationRow {
+      border-color: red;
+    }
+    #teacher1 {
+      border: 2px;
+      color: red;
+    }
+    .timetablehome {
+      background-color: grey;
+      color: black;
+      margin-left: 6px;
+    }
+    .style {
+      border: 2px solid red;
+    }
+    
+    .error-timetable {
+      color: red;
+      font-weight: bold;
+      padding: 4px;
+      margin-bottom: 0px;
+    }
+
+
+    /* Start  ---  Added css by Yamini  */
+      
+.dropdown-menu{
+  --bs-dropdown-min-width: 80px !important;
+}
+
+.book_and_isuue_input{
+  height: 3.1rem;
+}
+
+/* Add css by Yamini for issue status dropdown button */
+.select-dropdown-btn .dropdown-toggle {
+  width: 80px;
+}
+
+/* End ---  Added css by Yamini  */
+
+/* Start: Add by Abhishek */
+.categoryList > tbody > tr> .tbody-td:nth-child(1){
+  width: 10%;
+}
+
+.categoryList > tbody > tr> .tbody-td:nth-child(2){
+  width: 74%;
+}
+
+.categoryList > tbody > tr> .tbody-td:nth-child(3){
+  width: 16%;
+}
+
+.categoryList > tbody > tr> .tbody-td > span{
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+.select-name-btn > button{
+  background-color: white !important;
+  border: 2px solid #3181fdcc !important;
+  color: #0d6efd !important;
+  font-weight: bolder;
+}
+
+/* End: Add by Abhishek */
+
+.btnHover {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.btnHover .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #5f65f0 !important;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+.btnHover .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.btnHover:hover .tooltiptext {
+  visibility: visible;
+}
+
+.btnHoverAtt {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.btnHoverAtt .tooltiptextAtt {
+  visibility: hidden;
+  width: 120px;
+  background-color: #5f65f0 !important;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+.btnHoverAtt .tooltiptextAtt::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.btnHoverAtt:hover .tooltiptextAtt {
+  visibility: visible;
+}
+
+/* End ---  Added css by pooja   */
